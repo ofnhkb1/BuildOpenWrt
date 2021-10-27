@@ -24,3 +24,6 @@ git clone --depth=1 https://github.com/rosywrt/luci-theme-rosy.git
 git clone --depth=1 https://github.com/sypopo/luci-theme-argon-mc.git
 git clone --depth=1 https://github.com/apollo-ng/luci-theme-darkmatter.git
 
+cd -
+sed -i 's/net.netfilter.nf_conntrack_max=.*/net.netfilter.nf_conntrack_max=65535/g' package/kernel/linux/files/sysctl-nf-conntrack.conf
+sed -i 's/192.168.1.1/172.16.1.1/g' package/base-files/files/bin/config_generate
