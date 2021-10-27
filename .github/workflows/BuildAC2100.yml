@@ -78,7 +78,7 @@ jobs:
     
     #远程连接
     - name: SSH connection to Actions
-      uses: p3terx/debugger-action@master
+      uses: csexton/debugger-action@master
 
     - name: Compile the firmware
       id: compile
