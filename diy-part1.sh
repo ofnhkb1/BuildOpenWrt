@@ -16,3 +16,11 @@ git clone --depth=1 https://github.com/Lienol/openwrt-package
 git clone --depth=1 https://github.com/fw876/helloworld
 git clone --depth=1 https://github.com/kenzok8/openwrt-packages
 git clone --depth=1 https://github.com/kenzok8/small
+
+
+git clone --depth=1 https://github.com/jerrykuku/luci-theme-argon.git
+git clone --depth=1 https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom
+git clone --depth=1 https://github.com/rosywrt/luci-theme-rosy.git
+git clone --depth=1 https://github.com/sypopo/luci-theme-argon-mc.git
+git clone --depth=1 https://github.com/apollo-ng/luci-theme-darkmatter.git
+
